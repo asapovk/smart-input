@@ -24,7 +24,7 @@ export default class Front extends Component {
   }
 
   handleFocus = () => {
-    this.setState({focus: true, hover: false})
+    this.setState({focus: true, hover: false, blur: false})
     console.log('focused!')
   }
 
